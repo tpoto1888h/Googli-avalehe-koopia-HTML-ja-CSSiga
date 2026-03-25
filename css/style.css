@@ -37,3 +37,46 @@ input:hover {
   width: 600px;
   max-width: 100%;
 }
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 13px;
+  font-family: Arial;
+}
+
+header a {
+  text-decoration: none;
+  color: #444445;
+  margin: 0 10px;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #444445;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #dadce0;
+  color: #444445;
+}

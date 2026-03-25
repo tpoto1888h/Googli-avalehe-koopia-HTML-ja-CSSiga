@@ -83,27 +83,36 @@ button:hover {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 70px;
-  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
+  background-color: #dadce0; 
+  color: #444445;
+}
+
+.footer-top {
+  padding: 15px 30px;
+  border-bottom: 1px solid #444445; 
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
   padding: 15px 20px;
-  border: 1px solid #dfe1e5;
-  background-color: #dfe1e5;
 }
 
 footer a {
-  flex-wrap: wrap;
-  justify-content: space-between;
   text-decoration: none;
   color: #444445;
   margin: 0px 10px;
 }
 
 footer a:hover {
-  text-decoration: none;
   text-decoration: underline;
-  color: #444445;
+}
+
+.footer-left, .footer-right {
+  display: flex;
 }

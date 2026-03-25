@@ -55,6 +55,8 @@ header a {
 
 header a:hover {
   text-decoration: none;
+  text-decoration: underline;
+  color: #444445
 }
 
 .button-container {
@@ -64,11 +66,10 @@ header a:hover {
 button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
-  border-radius: 4px;
   color: #444445;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  margin: 11px 4px;
+  margin: 11px 6px;
   padding: 0 16px;
   line-height: 36px;
   min-width: 54px;
@@ -78,5 +79,31 @@ button {
 
 button:hover {
   border: 1px solid #dadce0;
+  color: #444445;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+  margin-top: 400px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding: 15px 20px;
+  border: 1px solid #dfe1e5;
+  background-color: #dfe1e5;
+}
+
+footer a {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #444445;
+  margin: 0px 10px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  text-decoration: underline;
   color: #444445;
 }

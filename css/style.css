@@ -21,6 +21,12 @@ input {
   padding: 5px 15px;
 }
 
+@media (max-width: 600px) {
+    input {
+        width: 90%; 
+    }
+}
+
 input:hover {
   background-color: rgb(218, 218, 218);
   font-size: 15px;
@@ -38,6 +44,12 @@ input:hover {
   max-width: 100%;
 }
 
+@media (max-width: 600px) {
+    .search-container {
+        width: 70%;
+    }
+}
+
 
 header {
   display: flex;
@@ -45,6 +57,12 @@ header {
   padding: 15px 20px;
   font-size: 13px;
   font-family: Arial;
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 90%;
+    }
 }
 
 header a {
@@ -85,11 +103,21 @@ button:hover {
 footer {
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 290px;
   font-family: Arial, sans-serif;
   font-size: 14px;
   background-color: #dadce0; 
   color: #444445;
+}
+
+@media (max-width: 600px) {
+    footer {
+      overflow: hidden;
+      width: 101%;
+      font-size: 7px;
+      justify-content: space-evenly;
+      flex-shrink: 0;
+      }
 }
 
 .footer-top {
@@ -115,4 +143,10 @@ footer a:hover {
 
 .footer-left, .footer-right {
   display: flex;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 50%; 
+    }
 }
